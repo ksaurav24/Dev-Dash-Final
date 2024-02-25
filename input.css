@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(./Images/BgTechnicald.jpg);
+    background-image: url(./Images/BgTechnicalSmScr.jpg);
   }
   #contactBtn {
     display: none;
