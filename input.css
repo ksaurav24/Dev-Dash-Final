@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  #regsbtn {
+    display: none;
+  }
+  #navlg {
+    display: none;
+  }
+
+  #bridge, p {
+    font-size: 12px;
+  }
+  #bgvideo {
+    display: none;
+  }
+  #overlay {
+    background-color: #00000000;
+  }
+  #onvid{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Images/BgTechnicald.jpg);
+  }
+  #contactBtn {
+    display: none;
+  }
+}
+#bridge p {
+  font-size: 34px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #dadada;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  text-shadow: 4px 4px 6px #2828289a;
+  z-index: 99;
+}
+#bridge {
+  padding: 2vh;
+  height: fit-content;
+  position: absolute;
+  background-color: #0000004e;
+  width: 100vw;
+  backdrop-filter: blur(8px);
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+#bgvideo {
+  /* background-size: fill; */
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  /* min-width: 100%; */
+  min-height: 100vh;
+  position: absolute;
+}
+#overlay {
+  background-color: #00000053;
+  height: 97vh;
+}
+.page1 {
+  position: relative;
+  z-index: 99;
+  height: 100vh;
+}
+#navbar {
+  position: fixed;
+  width: 100vw;
+  backdrop-filter: blur(2px);
+  background-color: #00000089;
+}
+#maintxt {
+  text-shadow: 4px 2px 8px #0000006a;
+}
+#smtxt2 {
+  text-shadow: 2px 1px 4px #0000008c;
+}
+#help {
+  background-color: #fcae61;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#smtxt {
+  transition: 0.6s ease-in-out;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+#smtxt:hover {
+  scale: 1.1;
+  color: rgba(255, 255, 255, 0.866);
+  background-color: rgba(0, 0, 0, 0.313);
+  transition: 0.6s ease-in;
+}
+#maintxtdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.registerbtn {
+  box-shadow: 4px -4px 15px rgba(0, 0, 0, 0.753) inset, 4px 4px 15px #0101014e;
+  transition: 0.4s ease-in-out;
+}
+.registerbtn:hover {
+  translate: 0 -5px;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 4px 12px #0101016e;
+}
+#contactBtn:hover {
+  scale: 1.1;
+  translate: 0 -4px;
+  transition: 0.3s ease-in;
+  background-color: #4f46e5;
+}
+#contactBtn{
+  background-color: #fcae61;
+  transition: 0.3s ease-in;
+  position: fixed;
+  bottom: 6%;
+  left: 94%;
+  z-index: 999;
+  padding: 9px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 12px #0000008a;
+}
+#regsbtn {
+  background-color: #fcae61;
+  color: #4f46e5;
+  transition: 0.2s ease-in;
+}
+#regsbtn:hover {
+  background-color: #c3874c;
+  transition: 0.2s ease-in;
+}
+#navsm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#mainContent {
+  padding-top: 10vh;
+  width: 100vw;
+  height: max-content;
+  position: relative;
+}
+#mainContent section {
+  min-width: 75%;
+  max-width: fit-content;
+  padding: 5vw;
+}
+body {
+  box-sizing: border-box;
+}
+
+#box {
+  box-shadow: 6px 6px 18px #0000008a, 3px 3px 10px #000000a4 inset;
+  border-radius: 16px;
+  background: #fcae61;
+}
+#bigbox {
+  z-index: 99;
+}

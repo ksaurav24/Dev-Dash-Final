@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="https://www.codement.tech/static/dev-dash/assets/img/illustrations/Codement.png" type="image/x-icon">
+  <title>DEV-DASH | Codement</title>
+  <link rel="stylesheet" href="input.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mainContent.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="footer.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="shortcut icon" href="https://www.codement.tech/static/dev-dash/assets/img/illustrations/Codement.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- HomePage (Landing page) -->
+  <div class="page1">
+  <video autoplay muted loop id="bgvideo">
+    <source src="./Images/holy_-_35006 (1440p).mp4" type="video/mp4">
+  </video> <div id="onvid">
+        <header class="relative inset-x-0 top-0 z-50">
+          <nav id="navbar" class="relative px-4 py-4 flex justify-between items-center">
+            <a class="absolute text-3xl font-bold leading-none" href="#">
+              <a itemid="headtxt" id="codement" href="https://www.codement.tech/"><span class=" text-lg poppins-bold" style=" font-size: 24px; color: #FCAE61;"  >Code</span><span class="text-lg text-gray-50 poppins-bold" style=" font-size: 24px; color: rgb(249 250 251);"  >ment</span></a>
+
+            </a>
+            <div  class="lg:hidden">
+              <button class="navbar-burger flex items-center text-blue-600 p-3">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <title>Mobile menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+              </button>
+            </div>
+            <ul id="navlg" class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+              <li><a class="hover:stroke-none text-gray-400 hover:bg-indigo-700 hover:text-yellow-500 focus:bg-indigo-700 focus:text-yellow-500" href="#about">Dev-Dash</a></li>
+              <li><a class="hover:stroke-none text-gray-400 hover:bg-indigo-700 hover:text-yellow-500 focus:bg-indigo-700 focus:text-yellow-500" href="#schedule">Schedule</a></li>
+              <li><a class="hover:stroke-none text-gray-400 hover:bg-indigo-700 hover:text-yellow-500 focus:bg-indigo-700 focus:text-yellow-500" href="#prizes">Prizes</a></li>
+              <li><a class="hover:stroke-none text-gray-400 hover:bg-indigo-700 hover:text-yellow-500 focus:bg-indigo-700 focus:text-yellow-500" href="#faq">Contact</a></li>
+            </ul>
+            <a id="regsbtn" class="w-38 hover:bg-yellow-800  py-2 px-6  font-bold text-sm rounded-xl transition duration-200" href="https://dev-dash.devpost.com/">Register Now!</a>
+          </nav>
+          <div class="navbar-menu relative z-50 hidden">
+            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+            <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+              <a class="absolute  text-3xl font-bold leading-none" href="#">
+                <a itemid="headtxt" id="codement" href="https://www.codement.tech/"><span class=" text-lg poppins-bold" style=" font-size: 24px; color: #FCAE61;"  >Code</span><span class="text-lg text-gray-50 poppins-bold" style=" font-size: 24px; color:#242F51;"  >ment</span></a>
+  
+             
+              <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                  
+                      
+                </button>
+              </div>
+              <div id="navsm">
+                <ul id="navsm">
+                  <li class="mb-1">
+                    <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#rules">Dev-Dash</a>
+                  </li>
+                  <li class="mb-1">
+                    <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#criteria">Schedule</a>
+                  </li>
+                  <li class="mb-1">
+                    <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#prizes">Prizes</a>
+                  </li>
+                  <li class="mb-1">
+                    <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#judges">FAQ's</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-auto">
+                <div class="pt-6">
+                  <a style=" background-color: #FCAE61; color: #4F46E5;" class="registerbtn block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold   rounded-xl" href="https://dev-dash.devpost.com/">Register Now!</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+         
+        </header>
+        <!-- Open contact form button -->
+        <button id="openContactForm">
+          <svg title="Contact" class="fill-blue-700 hover:fill-yellow-500" id="contactBtn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z" />
+            <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z" />
+          </svg>
+        </button>
+        <!-- Landing page main box content -->
+      
+        <div id="overlay" class="relative isolate px-6 pt-14 lg:px-8">
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+          <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div id="smtxt" class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-300 ring-1 ring-gray-500/10 hover:ring-gray-900/20">
+                Bring your team to this mini Hackathon! <a href="https://www.codement.tech/dev-dash" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Learn more <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="maintxtdiv" class="w-max">
+                <h1 id="maintxt" class="text-center animate-typing overflow-hidden whitespace-nowrap text-6xl font-bold tracking-tight text-gray-300 sm:text-6xl">Dev-Dash</h1>
+              </div>
+              <p id="smtxt2" class="mt-6 text-lg leading-8 text-gray-300">Showcase your skills and creativity and work on projects by teaming-up and coding together.</p>
+              <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a  href="https://dev-dash.devpost.com/" style="background-color: #FCAE61; color: #4F46E5;" class="registerbtn rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register now!</a>
+                </div>
+            </div>
+          </div>
+          <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+            <div id="RegisterBtn" class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div id="bridge" class="flex"><p>
+    WELCOME TO DEV-DASH MINI-HACKATHON</p>
+  </div>  
+  <!-- Page 2 main content -->
+<div id="mainContent">  
+  <!-- about dev-dash -->
+    <section id="about">
+      <h2>What is Dev-Dash?</h2>
+      <p style="padding-left: 20px;" >
+        Dev-Dash is a mini hackathon organized by Codement, a community of coders at NCER campus. It is a four-day event where you can showcase your skills in AI, Codement website contribution, or Education themes. You will get a chance to learn new technologies, network with mentors and peers, and win exciting prizes. Choose your theme, define your project and Dash to development.
+      </p>
+      <ol>
+        <li><div class="libox">
+        <strong>AI INTEGRATION:</strong></div><div style="padding-left: 25px;">
+Use power of AI to create smart and innovative solutions for various domains and applications.</div></li>
+        <li><div class="libox"><strong>CODEMENT CONTRIBUTION:</strong></div><div style="padding-left: 25px;">
+          Enhance and improve the Codement community website by adding new features and functionalities.</div></li>
+        <li><div class="libox"><strong>EDUCATION:</strong></div><div style="padding-left: 25px;">
+          This theme is about using technology to enhance and facilitate learning and teaching.</div></li>
+      </ol>
+    </section>
+    <!-- Event schedule -->
+    <section id="schedule">
+      <h2>Event Schedule</h2>
+      <p>
+        The Dev-Dash mini hackathon will be carried out on following timeline.
+      </p>
+      <ul>
+        <li><div class="libox">
+          <strong>On 22-FEB(Thursday):</strong></div><span style="padding-left: 35px;">There will be inauguration and a Git-Hub mentor session at NCER hall</span>
+        </li>
+        <li><div class="libox">
+        <strong>During 22-FEB to 25-FEB(Thur-Sun):</strong>
+      </div><span style="padding-left: 35px;"></span>Hackathon on Devpost (Submission closes on Sunday Midnight)</li>
+      <li><div class="libox">
+      <strong>On 26-FEB(Monday):</strong>
+    </div><span style="padding-left: 35px;"></span>Evaluation of the projects (you relax)</li>
+    <li><div class="libox">
+    <strong>On 27-FEB(Tuesday):</strong>
+  </div><span style="padding-left: 35px;"></span>Announcement of results (chance to Network with alumni)</li>
+      </ul>
+    </section>
+    <!-- Prizes -->
+    <section id="prizes">
+      <h2>Prizes</h2>
+      <p>
+        Here are the amazing prizes that will be awarded to the top teams at
+        the Dev-Dash hackathon:
+      </p>
+      <ul>
+        <li><div class="libox">
+          <strong>1st place: </strong> ₹4000 Prize money
+        </div></li>
+        <li><div class="libox">
+          <strong>2nd place:</strong> ₹2000 prize money
+        </div></li>
+        <li><div class="libox">
+          In addition to the prize money you will also get Goodies and stickers From Codement 
+        </div></li>
+      </ul>
+    </section>
+    <!-- Contact us -->
+    <section id="faq">
+      <h2>Contatct Us</h2>
+      <p>
+        For any queries related to registration Contact us on:
+      </p>
+      <ul>
+        <li><div class="libox">
+          <strong style="padding-right: 8px;" >Email:</strong> Codement13@gmail.com
+        </div></li>
+        <li><div class="libox">
+          <strong>Narendra Rathore</strong> - Head of Codement Community
+        </div></li>
+        <li><div class="libox">
+          <strong>Mahesh Udaykar</strong> - Deputy Head of Codement Community
+        </div></li>
+      </ul>
+    </section>
+  </div>
+  <div id="bigbox" class="flex absolute justify-center items-center h-screen">
+  
+    <!-- Modal -->
+    <div id="contactFormModal" class="fixed z-10 inset-0 overflow-y-auto hidden">
+        <div class="flex items-center justify-center min-h-screen">
+            <div id="box" class="bg-white w-1/2 p-6 rounded shadow-md">
+                <div class="flex justify-end">
+                    <!-- Close Button -->
+                    <button id="closeContactForm" class="text-gray-700 hover:text-red-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+
+            <form action="https://fabform.io/f/{form-id}" method="post">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                        <input type="text" id="name" name="name"
+                               class="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                        <input type="email" id="email" name="email"
+                               class="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                        <textarea id="message" name="message"
+                                  class="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+      <div class="row">
+        <div class="footer-col">
+         <h2 style="cursor: pointer;"> <span class="text-yellow-500 text-lg poppins-bold" style=" font-size: 24px; color:orange;"  >Code</span><span class="text-lg poppins-bold" style=" font-size: 24px; color:white;" >ment</span></a></h2>
+          <div class="footer-content">
+            <p class="text">Showcase your skills and creativity <br>and  work on projects by teaming-up <br>and coding together.
+          </p></div>
+        </div>
+        <div class="footer-col links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#contact"><button >Contact</button></a></li>
+          </ul>
+        </div>
+        <!-- The form -->
+<!-- This form uses the form backend
+service FabForm.io --->
+
+
+      <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="https://chat.whatsapp.com/HhY9RQ58N43AmfogZEwpOC"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/narendra632"><i class=" fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/narendra-rathore-2b06a1222/"><i class="fab fa-linkedin-in"></i></a>  
+          <a href="https://discord.com/invite/UDXSZTEV"><i class="fab fa-discord"></i></a> </div>
+      </div>
+    </div><br>
+      <div class="footer-bottom">
+        <p class="text">
+          &copy; 2023 <span class="logo-text">Codement</span>. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+
+    <script>
+
+      // JavaScript to toggle the modal
+      const openContactFormButton = document.getElementById('openContactForm');
+      const closeContactFormButton = document.getElementById('closeContactForm');
+      const contactFormModal = document.getElementById('contactFormModal');
+  
+      openContactFormButton.addEventListener('click', () => {
+          contactFormModal.classList.remove('hidden');
+      });
+  
+      closeContactFormButton.addEventListener('click', () => {
+          contactFormModal.classList.add('hidden');
+      });
+  
+  
+      </script>
+<script>
+  // Burger menus
+  document.addEventListener('DOMContentLoaded', function() {
+      // open
+      const burger = document.querySelectorAll('.navbar-burger');
+      const menu = document.querySelectorAll('.navbar-menu');
+  
+      if (burger.length && menu.length) {
+          for (var i = 0; i < burger.length; i++) {
+              burger[i].addEventListener('click', function() {
+                  for (var j = 0; j < menu.length; j++) {
+                      menu[j].classList.toggle('hidden');
+                  }
+              });
+          }
+      }
+  
+      // close
+      const close = document.querySelectorAll('.navbar-close');
+      const backdrop = document.querySelectorAll('.navbar-backdrop');
+  
+      if (close.length) {
+          for (var i = 0; i < close.length; i++) {
+              close[i].addEventListener('click', function() {
+                  for (var j = 0; j < menu.length; j++) {
+                      menu[j].classList.toggle('hidden');
+                  }
+              });
+          }
+      }
+  
+      if (backdrop.length) {
+          for (var i = 0; i < backdrop.length; i++) {
+              backdrop[i].addEventListener('click', function() {
+                  for (var j = 0; j < menu.length; j++) {
+                      menu[j].classList.toggle('hidden');
+                  }
+              });
+          }
+      }
+  });
+  </script>
+  <script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+  </script>
+<script src="./script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
